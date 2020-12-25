@@ -1,0 +1,25 @@
+.remove {
+    width: 12px;
+}
+
+
+li {
+    cursor: pointer;
+    border: 1px solid #000;
+    width: 500px;
+    display: flex;
+    justify-content: space-between;
+}
+li span {
+    width: 100px;
+    height: 20px;
+    border: 1px solid #000;
+    padding: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.dn {
+    display: none;
+}

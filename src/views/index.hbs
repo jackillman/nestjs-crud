@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/public/css/main.css">
+
+    <title>SMALL NESTJS MONGOOSE CRUD</title>
+
+</head>
+<body>
+    <h2>{{titleFirst}}</h2>
+    <div class="container">
+        <input type="text" name="name" placeholder="name" required>
+        <input type="text" name="title" placeholder="title" required>
+        <input type="text" name="author" placeholder="author" required>
+        <input type="text" name="gender" placeholder="gender" required>
+        <button class="send" onclick="send()">Send</button>
+        <button class="update dn" onclick="update()">Update</button>
+        <button onclick="getFilms()">GET FILMS</button> 
+        <button onclick="clearFields()">CLEAR FIELDS</button>
+    </div>
+    <div class="container">
+        LIST
+        <ul class="list"></ul>
+    </div>
+   
+
+    {{!-- <h2>{{titleSecond}}</h2>
+    <div class="container">
+        <input type="text" name="name" placeholder="name" required>
+        <input type="text" name="title" placeholder="title" required>
+        <input type="text" name="author" placeholder="author" required>
+        <input type="text" name="gender" placeholder="gender" required>
+        <button class="send" onclick="send()">Send</button>
+        <button class="update dn" onclick="update()">Update</button>
+        <button onclick="getFilms()">GET FILMS</button> 
+        <button onclick="clearFields()">CLEAR FIELDS</button>
+    </div>
+    <div class="container">
+        LIST
+        <ul class="list"></ul>
+    </div> --}}
+
+
+    <script src='/public/scripts/script-films.js'></script>
+</body>
+</html>
